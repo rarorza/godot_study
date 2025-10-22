@@ -10,6 +10,7 @@ public partial class Main : Node2D
 	public override void _Ready()
 	{
 		sprite = GetNode<Sprite2D>("Cursor");
+		GD.Print("Hello");
 	}
 
 	public override void _Process(double delta)
@@ -20,6 +21,7 @@ public partial class Main : Node2D
 		var gridPosition = mousePosition / tileSize;
 		gridPosition = gridPosition.Floor();
 		sprite.GlobalPosition = gridPosition * tileSize;
+		GD.Print("Hello");
 	}
 
 }

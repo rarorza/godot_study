@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqq5coiyiuyuy"]
+
+[ext_resource type="PackedScene" uid="uid://bu7sl400p5dcw" path="res://Scenes/Component.tscn" id="1_g1s7k"]
+
+[node name="Column" type="Node2D"]
+
+[node name="Component5" parent="." instance=ExtResource("1_g1s7k")]
+position = Vector2(398, 80)
+CompoenentValue = 5
+
+[node name="Component1" parent="." instance=ExtResource("1_g1s7k")]
+position = Vector2(398, 122)
+
+[node name="Component2" parent="." instance=ExtResource("1_g1s7k")]
+position = Vector2(398, 142)
+
+[node name="Component3" parent="." instance=ExtResource("1_g1s7k")]
+position = Vector2(398, 162)
+
+[node name="Component4" parent="." instance=ExtResource("1_g1s7k")]
+position = Vector2(398, 182)
